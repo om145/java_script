@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    
+    <div class="bt">
+      <h2>Budget Tracker</h2>
+      <p>Your Balance</p>
+      <label id="balance"></label>
+      <div class="abcd">
+        <div class="ab">
+          <label>Income</label><br>
+          <label id="income"></label>
+        </div>
+        <div class="cd">
+          <label>expence</label><br>
+          <label id="expence"></label>
+        </div>
+      </div>
+      <h3>History</h3>
+      <ul id="history"></ul>
+
+      <h3>Add New Transaction</h3>
+      <label>Text</label><br />
+      <input type="text" id="name" /><br /><br />
+      <label>Amount</label>
+      <label>( Negative/Positive - Expence )</label><br />
+      <input type="number" id="rs" /><br /><br /><br />
+      <button class="submit" onclick="bugtra()">Add Transaction</button>
+    </div>
+  </body>
+</html>

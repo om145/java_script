@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="cal">
+        <div ><input type="text" id="result"></div>
+        <div class="main">
+            <div class="no1 no">
+                <div class="b gray" onclick="clearScreen()">AC</div>
+                <div class="b gray" onclick="clearScreen()">C</div>
+                <div class="b gray" onclick="display('%')">%</div>
+                <div class="b o" onclick="display('/')">&#247;</div>
+            </div>
+            <div class="no2 no">
+                <div class="b black" onclick="display('7')">7</div>
+                <div class="b black" onclick="display('8')">8</div>
+                <div class="b black" onclick="display('9')">9</div>
+                <div class="b o" onclick="display('*')">&#215;</div>
+            </div>
+            <div class="no3 no">
+                <div class="b black" onclick="display('4')">4</div>
+                <div class="b black" onclick="display('5')">5</div>
+                <div class="b black" onclick="display('6')">6</div>
+                <div class="b o" onclick="display('-')">&#8722;</div>
+            </div>
+            <div class="no4 no">
+                <div class="b black" onclick="display('1')">1</div>
+                <div class="b black" onclick="display('2')">2</div>
+                <div class="b black" onclick="display('3')">3</div>
+                <div class="b o" onclick="display('+')">+</div>
+            </div>
+            <div class="no5 no">
+                <div class="b b0 black" onclick="display('0')">0</div>
+                <div class="b black" onclick="display('.')">.</div>
+                <div class="b o" onclick="solve()" > = </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

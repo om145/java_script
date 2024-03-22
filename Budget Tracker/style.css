@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+    background: #50d0dfc9;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.abcd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit{
+    /* margin-left: 10px; */
+    width: 170px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: rgba(163, 91, 235, 0.852);
+}
+
+.bt{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: auto;
+    width: 20%;
+    padding-left: 50px;
+    background-color: rgba(137, 43, 226, 0.591);
+}
+
+#income{
+    color: green;
+}
+
+#expence{
+    color: red;
+}
